@@ -1,0 +1,106 @@
+{
+	"if": {
+		"prefix": "if",
+		"body": [
+      "<if condition=\"$1\">",
+      "\t$2",
+			"</if>"
+		],
+		"description": "<if>"
+	},
+	"elseif": {
+		"prefix": "elseif",
+		"body": [
+      "<elseif condition=\"$1\">",
+      "\t$2",
+			"</elseif>"
+		],
+		"description": "<elseif>"
+	},
+	"else": {
+		"prefix": "else",
+		"body": [
+      "<else>",
+      "\t$1",
+			"</else>"
+		],
+		"description": "<else>"
+	},
+	"each-loop-array": {
+		"prefix": "each",
+		"body": [
+      "<each loop=\"${1:item}, ${2:index} in ${3:array}\">",
+      "\t$4",
+      "</each>"
+		],
+		"description": "<each> (array)"
+	},
+	"each-loop-object": {
+		"prefix": "each",
+		"body": [
+      "<each loop=\"${1:value}, ${2:key} in ${3:object}\">",
+      "\t$4",
+      "</each>"
+		],
+		"description": "<each> (object)"
+	},
+	"for-loop-array": {
+		"prefix": "for",
+		"body": [
+      "<for loop=\"${1:item}, ${2:index} in ${3:array}\">",
+      "\t$4",
+      "</for>"
+		],
+		"description": "<for> (array)"
+	},
+	"for-loop-object": {
+		"prefix": "for",
+		"body": [
+      "<for loop=\"${1:value}, ${2:key} in ${3:object}\">",
+      "\t$4",
+      "</for>"
+		],
+		"description": "<for> (object)"
+	},
+	"switch": {
+		"prefix": "switch",
+		"body": [
+      "<switch expression=\"$1\">",
+      "\t<case n=\"$2\">",
+      "\t\t$3",
+			"\t</case>",
+      "\t<default>",
+      "\t\t$4",
+      "\t</default>",
+      "</switch>"
+		],
+		"description": "<switch>"
+  },
+  "scope": {
+		"prefix": "scope",
+		"body": [
+      "<scope with=\"$1\">",
+      "\t$2",
+      "</scope>"
+		],
+		"description": "<scope>"
+	},
+  "raw": {
+		"prefix": "raw",
+		"body": [
+      "<raw>",
+      "\t$1",
+      "</raw>"
+		],
+		"description": "<raw>"
+	},
+  "verbatim": {
+		"prefix": "verbatim",
+		"body": [
+      "<verbatim>",
+      "\t$1",
+      "</verbatim>"
+		],
+		"description": "<verbatim>"
+	}
+}

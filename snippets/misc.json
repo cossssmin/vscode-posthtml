@@ -1,0 +1,36 @@
+{
+	"lorem": {
+		"prefix": "lorem",
+		"body": [
+      "<lorem size=\"$1\"></lorem>"
+		],
+		"description": "<lorem>"
+	},
+	"markdown": {
+		"prefix": "markdown",
+		"body": [
+      "<markdown>",
+      "\t$1",
+			"</markdown>"
+		],
+		"description": "<markdown>"
+	},
+	"md": {
+		"prefix": "md",
+		"body": [
+      "<md>",
+      "\t$1",
+			"</md>"
+		],
+		"description": "<md>"
+	},
+	"spaceless": {
+		"prefix": "spaceless",
+		"body": [
+      "<spaceless>",
+      "\t$1",
+			"</spaceless>"
+		],
+		"description": "<spaceless>"
+	}
+}

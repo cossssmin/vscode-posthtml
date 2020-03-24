@@ -1,0 +1,29 @@
+{
+	"extends": {
+		"prefix": "extends",
+		"body": [
+      "<extends src=\"$1\">",
+      "\t$2",
+			"</extends>"
+		],
+		"description": "<extends>"
+	},
+	"block": {
+		"prefix": "block",
+		"body": [
+      "<block name=\"$1\">",
+      "\t$2",
+			"</block>"
+		],
+		"description": "<block>"
+	},
+	"block-type": {
+		"prefix": "block-type",
+		"body": [
+      "<block name=\"$1\" type=\"$2\">",
+      "\t$3",
+			"</block>"
+		],
+		"description": "<block type=\"\">"
+	}
+}

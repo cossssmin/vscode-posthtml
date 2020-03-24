@@ -1,0 +1,56 @@
+{
+	"name": "posthtml",
+	"displayName": "PostHTML Snippets",
+	"version": "0.1.0",
+  "publisher": "cossssmin",
+	"description": "PostHTML code snippets",
+  "author": "Cosmin Popovici (https://github.com/cossssmin)",
+  "icon": "media/icon.png",
+  "galleryBanner": {
+    "color": "#f0fff8",
+    "theme": "dark"
+  },
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/cossssmin/vscode-posthtml"
+  },
+  "bugs": {
+    "url": "https://github.com/cossssmin/vscode-posthtml/issues"
+  },
+  "homepage": "https://github.com/cossssmin/vscode-posthtml/blob/master/README.md",
+	"engines": {
+		"vscode": "^1.22.0"
+	},
+	"categories": [
+		"Snippets"
+  ],
+  "keywords": [
+    "posthtml",
+    "snippets"
+  ],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/extends.json"
+			},
+			{
+				"language": "html",
+				"path": "./snippets/expressions.json"
+			},
+			{
+				"language": "html",
+				"path": "./snippets/include.json"
+			},
+			{
+				"language": "html",
+				"path": "./snippets/module.json"
+			},
+			{
+				"language": "html",
+				"path": "./snippets/misc.json"
+			}
+		]
+	}
+}

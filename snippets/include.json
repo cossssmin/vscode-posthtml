@@ -1,0 +1,11 @@
+{
+	"include": {
+		"prefix": "include",
+		"body": [
+      "<include src=\"$1\" locals='{$2}'>",
+      "\t$3",
+			"</include>"
+		],
+		"description": "<include>"
+	}
+}

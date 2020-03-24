@@ -1,0 +1,11 @@
+{
+	"module": {
+		"prefix": "module",
+		"body": [
+      "<module href=\"$1\" locals='{$2}'>",
+      "\t$3",
+			"</module>"
+		],
+		"description": "<module>"
+	}
+}
