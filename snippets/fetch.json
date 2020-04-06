@@ -1,0 +1,20 @@
+{
+	"fetch": {
+		"prefix": "fetch",
+		"body": [
+      "<fetch url=\"$1\">",
+      "\t{{ ${2:response} }}",
+			"</fetch>"
+		],
+		"description": "<fetch>"
+	},
+	"remote": {
+		"prefix": "remote",
+		"body": [
+      "<remote url=\"$1\">",
+      "\t{{ ${2:response} }}",
+			"</remote>"
+		],
+		"description": "<remote>"
+	}
+}
