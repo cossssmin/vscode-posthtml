@@ -47,8 +47,6 @@ For [posthtml-modules](https://github.com/posthtml/posthtml-modules):
 
 - `<module href="" locals="">`
 
-Note: `locals=""` attribute will be supported in an upcoming release of `posthtml-modules`.
-
 For other plugins:
 
 - `<spaceless>` ([posthtml-spaceless](https://github.com/posthtml/posthtml-spaceless))
