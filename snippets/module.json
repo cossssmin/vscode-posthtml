@@ -7,5 +7,14 @@
 			"</module>"
 		],
 		"description": "<module>"
+	},
+	"component": {
+		"prefix": "component",
+		"body": [
+      "<component src=\"$1\">",
+      "\t$3",
+			"</component>"
+		],
+		"description": "<component>"
 	}
 }

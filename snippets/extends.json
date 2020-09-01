@@ -8,6 +8,15 @@
 		],
 		"description": "<extends>"
 	},
+	"layout": {
+		"prefix": "layout",
+		"body": [
+      "<layout src=\"$1\">",
+      "\t$2",
+			"</layout>"
+		],
+		"description": "<layout>"
+	},
 	"block": {
 		"prefix": "block",
 		"body": [

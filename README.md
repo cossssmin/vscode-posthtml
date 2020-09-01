@@ -21,8 +21,10 @@ The following snippets are included:
 For [posthtml-extends](https://github.com/posthtml/posthtml-extend):
 
 - `<extends src="">`
-- `<block name="">`
-- `<block name="" type="">`
+- `<layout src="">` (`extends` alias)
+
+* `<block name="">`
+* `<block name="" type="">`
 
 For [posthtml-expressions](https://github.com/posthtml/posthtml-expressions):
 
@@ -49,13 +51,14 @@ For [posthtml-modules](https://github.com/posthtml/posthtml-modules):
 
 For other plugins:
 
+- `<component src="">` (modules in [maizzle.js](https://maizzle.com))
 - `<spaceless>` ([posthtml-spaceless](https://github.com/posthtml/posthtml-spaceless))
 - `<lorem size="">` ([posthtml-lorem](https://github.com/jonathantneal/posthtml-lorem))
 - `<markdown>`, `<md>` ([posthtml-md](https://github.com/jonathantneal/posthtml-md), [posthtml-markdown](https://github.com/OzymandiasTheGreat/posthtml-markdown), [posthtml-md2html](https://github.com/posthtml/posthtml-md2html))
 
 ## Usage
 
-Start writing a snippet's `prefix` and then press <kbd>Tab ↹</kbd> to expand the snippet.
+Start writing a snippet's `prefix` (tag name) and then press <kbd>Tab ↹</kbd> to expand the snippet.
 
 ## License
 
